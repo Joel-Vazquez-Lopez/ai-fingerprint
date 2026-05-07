@@ -193,7 +193,6 @@ AI tools were used to support coding, dataset preparation, debugging, interface 
 Add these links before submission:
 
 ```text
-GitHub repository:
 Hugging Face dataset:
 Hugging Face demo:
 ```
