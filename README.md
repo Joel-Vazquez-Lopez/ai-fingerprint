@@ -120,7 +120,7 @@ results/all_results_summary.csv
 Clone the repository and enter the project folder:
 
 ```bash
-git clone YOUR_REPOSITORY_URL
+git clone https://github.com/Joel-Vazquez-Lopez/ai-fingerprint.git
 cd ai-fingerprint
 ```
 
