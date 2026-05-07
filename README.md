@@ -190,9 +190,6 @@ AI tools were used to support coding, dataset preparation, debugging, interface 
 
 ## Links
 
-Add these links before submission:
-
-```text
-Hugging Face dataset:
-Hugging Face demo:
-```
+- GitHub repository: [https://github.com/Joel-Vazquez-Lopez/ai-fingerprint](https://github.com/Joel-Vazquez-Lopez/ai-fingerprint)
+- Hugging Face dataset: [https://huggingface.co/datasets/Jovaz/ai-fingerprinting-dataset](https://huggingface.co/datasets/Jovaz/ai-fingerprinting-dataset)
+- Hugging Face demo: [https://huggingface.co/spaces/Jovaz/ai-fingerprinting-classifier](https://huggingface.co/spaces/Jovaz/ai-fingerprinting-classifier)
