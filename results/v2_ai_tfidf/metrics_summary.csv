@@ -1,0 +1,2 @@
+model,accuracy,macro_f1
+char_tfidf_linear_svm,0.845,0.84397124841877

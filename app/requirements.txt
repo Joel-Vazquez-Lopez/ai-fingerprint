@@ -1,0 +1,5 @@
+gradio
+sentence-transformers
+scikit-learn
+joblib
+numpy

@@ -1,0 +1,10 @@
+pandas
+numpy
+scikit-learn
+sentence-transformers
+matplotlib
+joblib
+gradio
+huggingface_hub
+datasets
+torch

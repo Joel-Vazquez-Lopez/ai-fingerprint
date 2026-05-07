@@ -1,0 +1,15 @@
+{
+  "best_model": "mlp_classifier",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "normalize_embeddings": true,
+  "labels": [
+    "chatgpt",
+    "claude",
+    "deepseek",
+    "gemini",
+    "grok",
+    "human_ai_polished",
+    "human_original"
+  ],
+  "best_macro_f1": 0.5054376257638571
+}

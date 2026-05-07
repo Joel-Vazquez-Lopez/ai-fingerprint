@@ -1,0 +1,13 @@
+{
+  "best_model": "logistic_regression",
+  "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "normalize_embeddings": true,
+  "labels": [
+    "chatgpt",
+    "claude",
+    "deepseek",
+    "gemini",
+    "grok"
+  ],
+  "best_macro_f1": 0.47304579395676705
+}

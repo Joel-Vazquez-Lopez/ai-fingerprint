@@ -1,0 +1,10 @@
+experiment,dataset,task,features,model,accuracy,macro_f1,random_baseline,notes
+v1_main,data/processed/train.csv + data/processed/test.csv,7-class source classification,sentence embeddings,mlp_classifier,0.5071428571428571,0.5054376257638571,0.14285714285714285,"Best v1 embedding model; labels include five AI models plus human_original and human_ai_polished."
+v1_main,data/processed/train.csv + data/processed/test.csv,7-class source classification,sentence embeddings,linear_svm,0.48214285714285715,0.4809240562318761,0.14285714285714285,"Embedding baseline."
+v1_main,data/processed/train.csv + data/processed/test.csv,7-class source classification,sentence embeddings,logistic_regression,0.4714285714285714,0.46914285819799245,0.14285714285714285,"Embedding baseline."
+v1_main,data/processed/train.csv + data/processed/test.csv,7-class source classification,sentence embeddings,random_forest,0.33214285714285713,0.32370335704042436,0.14285714285714285,"Embedding baseline."
+v2_ai_combined,data/processed/train_v2_combined.csv + data/processed/test_v2.csv,5-class AI model attribution,sentence embeddings,logistic_regression,0.475,0.47304579395676705,0.2,"Best v2 embedding model after adding AI-only rows from v1 to v2 training."
+v2_ai_combined,data/processed/train_v2_combined.csv + data/processed/test_v2.csv,5-class AI model attribution,sentence embeddings,linear_svm,0.465,0.463751821110049,0.2,"Embedding baseline."
+v2_ai_combined,data/processed/train_v2_combined.csv + data/processed/test_v2.csv,5-class AI model attribution,sentence embeddings,mlp_classifier,0.465,0.4617835710732684,0.2,"Embedding baseline."
+v2_ai_combined,data/processed/train_v2_combined.csv + data/processed/test_v2.csv,5-class AI model attribution,sentence embeddings,random_forest,0.345,0.34092354519604307,0.2,"Embedding baseline."
+v2_ai_tfidf,data/processed/train_v2_combined.csv + data/processed/test_v2.csv,5-class AI model attribution,character n-gram TF-IDF,char_tfidf_linear_svm,0.845,0.84397124841877,0.2,"Best AI-only attribution model so far; captures local writing and formatting fingerprints."

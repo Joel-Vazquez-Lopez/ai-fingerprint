@@ -1,0 +1,5 @@
+model,accuracy,macro_f1
+logistic_regression,0.475,0.47304579395676705
+linear_svm,0.465,0.463751821110049
+mlp_classifier,0.465,0.4617835710732684
+random_forest,0.345,0.34092354519604307
