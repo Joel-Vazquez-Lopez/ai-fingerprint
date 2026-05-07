@@ -273,8 +273,8 @@ body,
     z-index: 0;
     pointer-events: none;
     background:
-        linear-gradient(90deg, rgba(15, 23, 42, 0.18) 0%, rgba(15, 23, 42, 0.08) 46%, rgba(15, 23, 42, 0.26) 100%),
-        linear-gradient(180deg, rgba(15, 23, 42, 0.04) 0%, rgba(15, 23, 42, 0.16) 100%);
+        linear-gradient(90deg, rgba(2, 6, 23, 0.28) 0%, rgba(15, 23, 42, 0.16) 46%, rgba(2, 6, 23, 0.34) 100%),
+        linear-gradient(180deg, rgba(2, 6, 23, 0.48) 0%, rgba(15, 23, 42, 0.24) 48%, rgba(15, 23, 42, 0.18) 100%);
 }
 
 .gradio-container::after {
@@ -319,12 +319,22 @@ body,
     background-position: center bottom;
 }
 
+.video-bg::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    background:
+        radial-gradient(circle at 50% 108%, rgba(59, 130, 246, 0.12), transparent 34%),
+        linear-gradient(180deg, rgba(2, 6, 23, 0.62) 0%, rgba(15, 23, 42, 0.48) 42%, rgba(15, 23, 42, 0.18) 72%, rgba(2, 6, 23, 0.14) 100%);
+}
+
 .video-bg video {
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: center bottom;
-    filter: saturate(1.08) contrast(1.04) brightness(1.22);
+    filter: saturate(1.08) contrast(1.08) brightness(0.86);
 }
 
 .app-shell {
@@ -338,6 +348,8 @@ body,
     padding: 22px 0 10px;
     border-bottom: 1px solid rgba(203, 213, 225, 0.46);
     backdrop-filter: blur(8px);
+    background: linear-gradient(180deg, rgba(2, 6, 23, 0.34), rgba(2, 6, 23, 0.08));
+    border-radius: 0 0 8px 8px;
 }
 
 .eyebrow {
