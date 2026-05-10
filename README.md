@@ -184,9 +184,6 @@ This project should not be interpreted as proof of authorship. The models learn 
 
 The demo should be understood as a writing-style signal classifier, not a definitive AI detector.
 
-## AI Tool Use Reflection
-
-AI tools were used to support coding, dataset preparation, debugging, interface design, and report/README drafting. The most useful part was rapid iteration: model training, Gradio interface updates, and result interpretation could be improved quickly. However, the outputs still required manual checking because AI tools can hallucinate code behavior, file paths, and interpretations. The project reinforced that AI tools are helpful for acceleration, but the developer still needs to understand the dataset, verify results, and explain the limitations clearly.
 
 ## Links
 
